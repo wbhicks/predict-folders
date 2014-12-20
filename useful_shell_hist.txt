@@ -1,0 +1,7 @@
+$ /some/path/to/Gradle/gradle-2.0/bin/gradle clean build
+
+$ java -classpath build/libs/Hib324sp1_t3.jar:lib/commons-lang3-3.1.jar:lib/commons-csv-1.0.jar met/ArrSerializer interactive
+
+$ java -classpath build/libs/Hib324sp1_t3.jar:lib/commons-lang3-3.1.jar:lib/commons-csv-1.0.jar met/ArrSerializer interactive 2> /dev/null
+
+
